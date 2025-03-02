@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reader_feedback</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/gerneral.css">
+    <link rel="stylesheet" href="../assets/icomoon/style.css">
+    <link rel="stylesheet" href="../css/reader_feedback.css">
+</head>
+
+<body>
+    <div class="zhuti_page">
+        <div class="charudangqi"></div>
+        <div class="daohanglan">
+            <div class="spacer"></div>
+            <div><a href="../index.html" class="icon-home large"></a></div>
+            <div class="spacer"></div>
+            <div><a href="introduction.html">关于本站</a></div>
+            <div class="spacer"></div>
+            <div class="dropdown">
+                <a class="dropbtn">年度人物</a>
+                <div class="dropdown-content">
+                    <a href="annual_character2023.html">2023</a>
+                    <a href="annual_character2022.html">2022</a>
+                    <a href="annual_character2021.html">2021</a>
+                </div>
+            </div>
+            <div class="spacer"></div>
+            <div class="dropdown">
+                <a class="dropbtn">时代英雄</a>
+                <div class="dropdown-content">
+                  <a href="Hero_of_The_Times_yiqing.html">疫情时期</a>
+                  <a href="Hero_of_The_Times_kangzhan.html">抗战时期</a>
+                  <a href="Hero_of_The_Times_gemingshiqi.htm">革命时期</a>
+                </div>
+            </div>
+            <div class="spacer"></div>
+            <div><a href="social_character.html">社会英雄</a></div>
+            <div class="spacer"></div>
+            <div><a href="super_hero.html">超级英雄</a></div>
+            <div class="spacer"></div>
+            <div><a href="#">读者反馈</a></div>
+            <div class="spacer"></div>
+        </div>
+        <div class="subject">
+            <div class="cebiankuang">
+                <span class="chatu"></span>
+            </div>
+            <div class="neirong">
+                <div class="nr_title">读者反馈</div>
+
+                <div class="nr_zhuti">
+                    <div class="jianyi pianyi1">
+                        <div class="wenzihezi">您可以于此写下对网站内容的建议</div>
+                        <form>
+                            <textarea id="myTextarea1" rows="5" cols="50" ></textarea>
+                        </form>
+                    </div>
+                    <div class="jianyi pianyi2">
+                        <div class="wenzihezi">您可以于此写下对网站建设的建议</div>
+                        <form>
+                            <textarea id="myTextarea2" rows="5" cols="50" ></textarea>
+                        </form>
+                    </div>
+                    <div class="message">
+                        <div class="lianxi_title">向我联系</div>
+                        <div class="lianxi_zhuti icon-mail4">&nbsp;站长邮箱:&nbsp;<em>nicai@qq.com</em></div>
+                        <div class="lianxi_zhuti icon-phone zhuti2">&nbsp;站长电话:&nbsp;<em>13680646936</em></div>
+                        <div class="lianxi_zhuti icon-flag zhuti3">&nbsp;&nbsp;<ins>如若照片涉及侵权，请您向我联系！</ins></em></div>
+                    </div>
+                    <span class="pingfen">
+                        <span class="xiaozi">给网站设计评分：</span>
+                        <form>
+                            <input type="radio" name="sheji">1
+                            <input type="radio" name="sheji">2
+                            <input type="radio" name="sheji">3
+                            <input type="radio" name="sheji">4
+                            <input type="radio" name="sheji">5
+                            <input type="radio" name="sheji">6
+                            <input type="radio" name="sheji">7
+                            <input type="radio" name="sheji">8
+                            <input type="radio" name="sheji">9
+                            <input type="radio" name="sheji" checked="checked">10
+                        </form>
+                    </span>
+                    <span class="pingfen pf_pianyi">
+                        <span class="xiaozi">给网站内容评分：</span>
+                        <form>
+                            <input type="radio" name="sheji">1
+                            <input type="radio" name="sheji">2
+                            <input type="radio" name="sheji">3
+                            <input type="radio" name="sheji">4
+                            <input type="radio" name="sheji">5
+                            <input type="radio" name="sheji">6
+                            <input type="radio" name="sheji">7
+                            <input type="radio" name="sheji">8
+                            <input type="radio" name="sheji">9
+                            <input type="radio" name="sheji" checked="checked">10
+                        </form>
+                        </span>
+                    <div class="anniu">
+                        <form>
+                            <input type="reset">
+                        </form>
+                    </div>
+                    <div class="anniu2">
+                        <form>
+                            <input type="submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dibu">
+            <div><p>姓名:李思阳</p></div>
+            <div><p>学号:3222001052</p></div>
+            <div><p>电话:13680646936</p></div>
+        </div>
+    </div>
+
+    <script>
+        // 重置按钮点击事件
+        document.querySelector('.anniu input[type="reset"]').addEventListener('click', function() {
+            document.getElementById('myTextarea1').value = ''; // 清空第一个文本框内容
+            document.getElementById('myTextarea2').value = ''; // 清空第二个文本框内容
+            var radios1 = document.querySelectorAll('input[name="sheji"]'); // 获取网站设计评分的所有单选框
+            var radios2 = document.querySelectorAll('input[name="neirong"]'); // 获取网站内容评分的所有单选框
+            for (var i = 0; i < radios1.length; i++) {
+                radios1[i].checked = false; // 取消选中网站设计评分的所有单选框
+            }
+            for (var i = 0; i < radios2.length; i++) {
+                radios2[i].checked = false; // 取消选中网站内容评分的所有单选框
+            }
+        });
+    
+        // 提交按钮点击事件
+        document.querySelector('.anniu2 input[type="submit"]').addEventListener('click', function() {
+        document.getElementById('myTextarea1').value = ''; // 清空第一个文本框内容
+        document.getElementById('myTextarea2').value = ''; // 清空第二个文本框内容
+        var radios1 = document.querySelectorAll('input[name="sheji"]'); // 获取网站设计评分的所有单选框
+        var radios2 = document.querySelectorAll('input[name="neirong"]'); // 获取网站内容评分的所有单选框
+        for (var i = 0; i < radios1.length; i++) {
+            radios1[i].checked = false; // 取消选中网站设计评分的所有单选框
+        }
+        for (var i = 0; i < radios2.length; i++) {
+            radios2[i].checked = false; // 取消选中网站内容评分的所有单选框
+        }
+        alert('提交成功啦！感谢您的评价');
+    })
+    </script>
+    
+</body>
+
+</html>

@@ -1,0 +1,184 @@
+span{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-family: 'Pangmengzhengdao';
+}
+
+.nr_zhuti{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(5,1fr);
+    justify-items: center;
+    width: 100%;
+    height: 500px;
+    border-bottom: 1px dashed white;
+}
+.nr_zhuti>div{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+.tupian{
+    width: 80%;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.mingzi{
+    font-size: 20px;
+    font-weight: bold;
+}
+.yishuzi{
+    color: red;
+    font-family: 'AaMoYunXingShu';
+    font-size: 16px;
+}
+
+.floatingWindow {
+    display: block;
+    position: absolute;
+    color: black;
+    width: 290px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 12px;
+    text-indent: 2em;
+    text-align: left;
+}
+.mybotton{
+    margin-top: 6px;
+    font-family: 'MaShanZheng';
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 16px ;
+    cursor: pointer;
+}
+.mybotton:hover{
+    color: red;
+}
+
+.tp1{
+    background-image: url(../assets/annual_character/qianqihu.jpg);
+    background-size: cover;
+} 
+.tp2{
+    background-image: url(../assets/annual_character/dengxiaolan.jpg);
+    background-size: cover;
+}
+.tp3{
+    background-image: url(../assets/annual_character/yinfazhibo.jpg);
+    background-size: cover;
+}
+.tp4{
+    background-image: url(../assets/annual_character/shengzhonfang.jpg);
+    background-size: cover;
+} 
+.tp5{
+    background-image: url(../assets/annual_character/yangnin.jpg);
+    background-size: cover;
+} 
+.tp6{
+    background-image: url(../assets/annual_character/xuzongxiang.jpg);
+    background-size: cover;
+} 
+.tp7{
+    background-image: url(../assets/annual_character/xumengtao.jpg);
+    background-size: cover;
+}   
+.tp8{
+    background-image: url(../assets/annual_character/chengqinquan.jpg);
+    background-size: cover;
+} 
+.tp9{
+    background-image: url(../assets/annual_character/luhong.jpg);
+    background-size: cover;
+} 
+.tp10{
+    background-image: url(../assets/annual_character/linzhanxi.jpg);
+    background-size: cover;
+} 
+.tp11{
+    background-image: url(../assets/annual_character/yangzhengnin.jpg);
+    background-size: cover;
+}
+.tp12{
+    background-image: url(../assets/annual_character/zlfq.jpg);
+    background-size: cover;
+}
+.tp13{
+    background-image: url(../assets/annual_character/sbt.jpg);
+    background-size: cover;
+}
+.tp14{
+    background-image: url(../assets/annual_character/zyf.jpg);
+    background-size: cover;
+}
+.tp15{
+    background-image: url(../assets/annual_character/gsf.jpg);
+    background-size: cover;
+}
+.tp16{
+    background-image: url(../assets/annual_character/cbe.jpg);
+    background-size: cover;
+}
+.tp17{
+    background-image: url(../assets/annual_character/wty.jpg);
+    background-size: cover;
+}
+.tp18{
+    background-image: url(../assets/annual_character/jmn.jpg);
+    background-size: cover;
+}
+.tp19{
+    background-image: url(../assets/annual_character/lsl.jpg);
+    background-size: cover;
+}
+.tp20{
+    background-image: url(../assets/annual_character/htr.jpg);
+    background-size: cover;
+}
+.tp21{
+    background-image: url(../assets/annual_character/zdy.jpg);
+    background-size: cover;
+}
+.tp22{
+    background-image: url(../assets/annual_character/cl.jpg);
+    background-size: cover;
+}
+.tp23{
+    background-image: url(../assets/annual_character/zgm.jpg);
+    background-size: cover;
+}
+.tp24{
+    background-image: url(../assets/annual_character/wxff.jpg);
+    background-size: cover;
+}
+.tp25{
+    background-image: url(../assets/annual_character/wh.jpg);
+    background-size: cover;
+}
+.tp26{
+    background-image: url(../assets/annual_character/wy.jpg);
+    background-size: cover;
+}
+.tp27{
+    background-image: url(../assets/annual_character/xj.jpg);
+    background-size: cover;
+}
+.tp28{
+    background-image: url(../assets/annual_character/yjy.jpg);
+    background-size: cover;
+}
+.tp29{
+    background-image: url(../assets/annual_character/mxl.jpg);
+    background-size: cover;
+}
+.tp30{
+    background-image: url(../assets/annual_character/gcydd.jpg);
+    background-size: cover;
+}

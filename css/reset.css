@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font:12px "宋体","Arial Narrow";
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    word-wrap:break-word;
+}
+
+img{
+    border:0;vertical-align:middle;
+}
+
+table{
+    border-collapse:collapse;border-spacing:0;
+}
+
+@font-face {
+    font-family: 'AaMoYunXingShu';
+    src: url('../assets/AaMoYunXingShu.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'YunFengFeiYun';
+    src: url('../assets/YunFengFeiYun.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Zhonqihangshu';
+    src: url('../assets/Zhonqihangshu.ttf') format('truetype');
+}

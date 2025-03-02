@@ -1,0 +1,179 @@
+a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+p {
+    text-align: left;
+    display: inline-block;
+    font-family: "SimSun", "宋体", Arial, sans-serif;
+    text-indent: 2em;
+}
+
+div {
+    color: white;
+}
+
+.zhuti_page {
+    position: relative;
+    width: 750px;
+    height: 652px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 2%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background: radial-gradient(circle at center, #333333 0%, #444444 50%, #333333 100%);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.daohanglan {
+    position: relative;
+    left: 202px;
+    display: flex;
+    width: 560px;
+    height: 68px;
+}
+
+.daohanglan a {
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    /* 设置下划线粗细为1像素 */
+    text-decoration-color: white;
+    text-underline-offset: 4px;
+    /* 设置下划线与文字的距离为2像素 */
+}
+
+.daohanglan>div {
+    display: inline;
+    border-bottom: 2px solid white;
+    border-right: none;
+    border-left: none;
+    font-size: 20px;
+    line-height: 64px;
+}
+
+.spacer {
+    width: 4px;
+}
+
+.icon-home.large::before {
+    font-size: 36px;
+}
+
+.subject {
+    position: relative;
+    width: 750px;
+    height: 550px;
+}
+
+.cebiankuang {
+    position: absolute;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 200px;
+    height: 502px;
+    border-right: 1px dashed white;
+    border-bottom: 1px dashed white;
+    text-align: center;
+    line-height: 6em;
+}
+
+.cebiankuang>div {
+    position: relative;
+    left: 20px;
+    width: 80%;
+    height: 80px;
+    border-bottom: 2px solid white;
+    border-radius: 50%;
+    font-size: 25px;
+    font-family: 'AaMoYunXingShu';
+}
+
+.neirong {
+    position: absolute;
+    left: 200px;
+    width: 550px;
+    height: 100%;
+}
+
+.nr_title {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px dashed white;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.dibu {
+    display: flex;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.dibu>div {
+    flex: 1;
+}
+
+.dibu p {
+    text-align: center;
+    font-size: large;
+    line-height: 30px;
+    color: gray;
+}
+
+.charudangqi {
+    position: absolute;
+    left: -2px;
+    top: -1px;
+    width: 203px;
+    height: 122px;
+    background-image: url(../assets/dangqi_background_image.jpg);
+    background-size: cover;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 110px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #c4bebe;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

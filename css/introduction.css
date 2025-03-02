@@ -1,0 +1,51 @@
+.neirong {
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: 1fr;
+}
+.neirong>div {
+    width: 100%;
+    text-align: center;
+    font-size: large;
+    line-height: 50px;
+}
+
+.hebin1 {
+    grid-row: 2/6;
+    grid-column: 1/2;
+    border-bottom: 1px solid white;
+}
+
+.hebin2 {
+    grid-row: 7/11;
+    grid-column: 1/2;
+    border-bottom: 1px dashed white;
+}
+
+.fenge{
+    border-bottom: 1px solid white;
+    font-weight: bold;
+}
+
+.neibianju{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 34px;
+}
+
+.cebiankuang{
+    border-right: 0;
+    border-bottom: 0;
+    background-color: black;
+}
+
+.chatu{
+    position: absolute;
+    left: -2px;
+    top: 63px;
+    display: block;
+    width: 202px;
+    height: 382px;
+    background-image: url(../assets/hero_background_image.jpg);
+    background-size: cover;
+}

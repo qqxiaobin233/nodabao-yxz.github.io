@@ -1,0 +1,73 @@
+.nr_zhuti{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    border-bottom: 1px dashed white;
+}
+
+
+.cebiankuang{
+    border-right: 0;
+    border-bottom: 0;
+}
+.chatu{
+    position: absolute;
+    left: -2px;
+    top: 0px;
+    display: block;
+    width: 202px;
+    height: 503px;
+    background-image: url(../assets/hero_1.jpg);
+    background-size: cover;
+}
+
+.tp1{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 48%;
+    height: 48%;
+    background-image: url(../assets/super_hero_fq.jpg);
+    background-size: cover;
+}
+.tp2{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 48%;
+    height: 48%;
+    background-image: url(../assets/super_hero_mq.jpg);
+    background-size: cover;
+}
+
+
+.wbk1{
+    position: absolute;
+    left: 52%;
+    top: 10px;
+    width: 253px;
+    height: 46%;
+}
+.wbk2{
+    position: absolute;
+    right: 52%;
+    bottom: 10px;
+    width: 253px;
+    height: 46%;
+}
+.dazi{
+    position: absolute;
+    top: 105px;
+    right: 28px;
+    display: block;
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Zhonqihangshu';
+    color: red;
+}
+.xiaozi{
+    position: absolute;
+    top: 17px;
+    font-size: 36px;
+    font-family: "SimHei","Microsoft YaHei", "SimSun", sans-serif;
+}
