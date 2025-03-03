@@ -69,9 +69,9 @@ textarea{
 .pingfen{
     position: absolute;
     top: 330px;
-    left: 53%;
+    left: 52%;
     display: inline-block;
-    width: 46%;
+    width: 48%;
     height: 50px;
 }
 .pf_pianyi{
@@ -134,3 +134,6 @@ textarea{
     color: white;
 }
 
+.youxiang{
+    font-size: large;
+}

@@ -202,14 +202,14 @@
        var buttons = document.getElementsByClassName("showFloatingWindow");
         
         // 循环为每个按钮添加点击事件处理
-        for (var i = 0; i < buttons.length; i++) {
+        for (let i = 0; i < buttons.length; i++) {
           buttons[i].addEventListener("click", function() {
-            var content = this.getAttribute("data-content"); // 获取浮窗内容
+            let content = this.getAttribute("data-content"); // 获取浮窗内容
         
             if (this.nextElementSibling && this.nextElementSibling.classList.contains("floatingWindow")) {
               this.parentNode.removeChild(this.nextElementSibling); // 如果浮窗已存在，则移除
             } else {
-              var floatingWindow = document.createElement("div"); // 创建浮窗元素
+              let floatingWindow = document.createElement("div"); // 创建浮窗元素
               floatingWindow.className = "floatingWindow"; // 添加类名
               floatingWindow.innerHTML = content; // 设置浮窗内容
               this.parentNode.insertBefore(floatingWindow, this.nextSibling); // 插入浮窗
@@ -223,14 +223,14 @@
         var buttons = document.getElementsByClassName("showFloatingWindow2");
          
          // 循环为每个按钮添加点击事件处理
-         for (var i = 0; i < buttons.length; i++) {
+         for (let i = 0; i < buttons.length; i++) {
            buttons[i].addEventListener("click", function() {
-             var content = this.getAttribute("data-content"); // 获取浮窗内容
+             let content = this.getAttribute("data-content"); // 获取浮窗内容
          
              if (this.nextElementSibling && this.nextElementSibling.classList.contains("floatingWindow")) {
                this.parentNode.removeChild(this.nextElementSibling); // 如果浮窗已存在，则移除
              } else {
-               var floatingWindow = document.createElement("div"); // 创建浮窗元素
+               let floatingWindow = document.createElement("div"); // 创建浮窗元素
                floatingWindow.className = "floatingWindow"; // 添加类名
                floatingWindow.innerHTML = content; // 设置浮窗内容
                this.parentNode.insertBefore(floatingWindow, this.nextSibling); // 插入浮窗
