@@ -25,16 +25,44 @@ textarea{
     background-size: cover;
 }
 
+.username{
+    position: absolute;
+    top: 3px;
+    left: 140px;
+    width: 100px;
+    height: 25px;
+    text-indent: 1.5em;
+    border-radius: 5px;
+    border: 1px black;
+}
+.username2{
+    position: absolute;
+    top: 3px;
+    left: 390px;
+    width: 140px;
+    height: 25px;
+    text-indent: 1.5em;
+    border-radius: 5px;
+    border: 1px black;
+}
+
 .jianyi{
     position: absolute;
     width:100%;
-    height: 150px;
+    height: 120px;
 }
 .pianyi1{
-    top: 10px;
+    top:12px;
 }
 .pianyi2{
-    top: 170px;
+    position: absolute !important;
+    left:260px !important;
+}
+.pianyi3{
+    top: 60px;
+}
+.pianyi4{
+    top: 200px;
 }
 
 .message{
@@ -107,11 +135,14 @@ textarea{
 .wenzihezi{
     position: absolute;
     left: 10px;
-    width: 80%;
+    width: 85%;
     height: 40px;
     font-size: 28px;
     font-family: 'AaMoYunXingShu';
     color: white;
+}
+.xiaohezi{
+    width:50%;
 }
 
 #myTextarea1,#myTextarea2{
@@ -119,10 +150,11 @@ textarea{
     top: 39px;
     left: 10px;
     width: 521px;
-    height: 100px;
+    height: 80px;
     text-indent: 2em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: white;
+    border-radius: 5px;
 }
 
 .xiaozi{
